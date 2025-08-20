@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="text-box">
+            <div ><img class="logo" src="img/internet.png" alt=""></div>
+        <h1 class="heading-primary">
+            web technology
+        </h1>
+        </div>
+    </header>
+    <div class="wrapper">
+    <section class="section-table">
+        <h2 id="backtotop">web technology</h2>
+        <table>
+            <tr>
+                <td><a href="#component1">client server</a></td>
+                <td><a href="#component2">components of web application</a></td>
+            </tr>
+            <tr>
+                <td><a href="#component3">Types of web content</a></td>
+                <td><a href="#component4">HTTP-HTTPS request</a></td>
+
+            </tr>
+            <tr>
+                <td><a href="#component5">Dynamic web pages</a></td>
+                <td><a href="#component6">Application servers</a></td>
+            </tr>
+            <tr>
+                <td colspan="2"><a href="#component7">Web security</a></td>
+            </tr>
+        </table>
+    </section>
+    <section id="component1" class="components">
+        <h2>CLIENT/SERVER</h2>
+        <div class="img-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/1200px-Client-server-model.svg.png" alt=""></div>
+        <div class="text-box">
+            <p>Web technology is the collection of tools, techniques, and protocols used to design, develop, and manage websites and web applications. It plays a vital role in connecting people, businesses, and services across the internet.</p>
+            <p>The frontend (client-side) deals with the part of a website that users see and interact with. Technologies such as HTML for structure, CSS for design, and JavaScript for interactivity are the backbone of frontend development. Frameworks like React, Angular, and Vue.js further enhance user experiences by creating fast and dynamic interfaces.</p>
+        </div>
+    </section>
+    <section id="component2" class="components">
+        <h2>components of web application</h2>
+        <div class="img-box"><img src="https://miro.medium.com/0*ciuVwVbasj83rElq.jpg" alt=""></div>
+        <div class="text-box">
+            <p>A web application is a software program that runs on a web server and can be accessed through a browser. It is widely used for online services such as banking, shopping, education, and social networking. A web application consists of several key components that work together to provide smooth functionality.</p>
+            <p>The frontend (client-side) is the part that users interact with directly. It includes HTML for structure, CSS for design, and JavaScript for interactivity. This component ensures a good user interface and experience.</p>
+            <p>The backend (server-side) handles the logic, processing, and communication with the database. It is built using languages like PHP, Python, Java, or Node.js.</p>
+        </div>
+    </section>
+    <section id="component3" class="components">
+        <h2>types of web content</h2>
+        <div class="img-box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmEfDQVPc-Do3K4VDlFMK1hL97dtPQIlibvQ&s" alt=""></div>
+        <div class="text-box"><p>Web content refers to the information and media published on websites to inform, engage, or entertain users. It plays a vital role in communication, marketing, and knowledge sharing across the internet. There are several types of web content.</p></div>
+    </section>
+    <section id="component4" class="components">
+        <h2>http-https request</h2>
+        <div class="img-box"><img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2022/11/HTTP-vs-HTTPS.png?resize=750%2C500&quality=100&strip=all&ssl=1" alt=""></div>
+        <div class="text-box">
+            <p>The World Wide Web works on the principle of communication between clients (browsers) and servers. This communication happens through HTTP (Hypertext Transfer Protocol) and HTTPS (Hypertext Transfer Protocol Secure) requests.</p>
+            <p>An HTTP request is a message sent by the client to the server asking for data such as a webpage, image, or file. It uses methods like GET (to retrieve data), POST (to send data), PUT (to update data), and DELETE (to remove data). HTTP is fast but not secure because the data is sent as plain text, making it vulnerable to hackers.</p>
+            <h3>how it works?</h3>
+            <div class="img-box">
+                <img  src="https://media.geeksforgeeks.org/wp-content/uploads/20211117141004/HTTPSdrawio-660x368.png" alt="">
+            </div>
+            <p>When a user enters a website URL, the browser sends an HTTP/HTTPS request to the server. The request contains methods like GET (to fetch data) or POST (to send data). The server processes the request, retrieves data (often from a database), and sends back an HTTP response with a status code (e.g., 200 OK) and content (HTML, images, JSON, etc.).
+
+In HTTP, data is transferred as plain text, which is not secure. In HTTPS, an SSL/TLS handshake is performed before communication, ensuring that all data is encrypted and secure. The browser then displays the web page to the user.</p>
+        </div>
+    </section>
+    <section id="component5" class="components">
+        <h2>dynamic web pages</h2>
+        <div class="img-box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI3y5SbNPM2VKZEWAgb9xnd6B8Y0bTwXrOdg&s" alt=""></div>
+        <div class="text-box">
+            <p>A static web page is a simple type of webpage where the content remains fixed and is the same for every visitor. It is usually built using HTML and CSS, does not need a database, and loads quickly. These pages are easy to create and are commonly used for personal portfolios or company information sites. In contrast, a dynamic web page displays content that changes based on user interaction or server-side processing. It often uses scripting languages like PHP, Python, or JavaScript along with databases to deliver customized and interactive experiences. Examples include social media platforms, online shopping sites, and blogs.</p>
+        </div>
+    </section>
+    <section id="component6" class="components">
+        <h2>application servers</h2>
+        <div class="img-box">
+            <img src="https://www.rankred.com/wp-content/uploads/2020/06/Application-server-.jpg" alt="">
+        </div>
+        <div class="text-box">
+            <p>An application server is software that provides an environment to run and manage web applications. It sits between the client (browser) and the database, handling business logic, security, and communication</p>
+            <p>Unlike a web server, which mainly delivers static content, an application server processes dynamic requests by executing code, connecting to databases, and generating responses. Popular examples include Apache Tomcat, JBoss, WebLogic, and WebSphere. In short, an application server enables efficient, secure, and scalable delivery of complex web applications.</p>
+        </div>
+    </section>
+    <section id="component7" class="components">
+        <h2>web security</h2>
+        <div class="img-box"><img src="https://www.techfunnel.com/wp-content/uploads/2020/01/Web-Security.jpg" alt=""></div>
+        <div class="text-box">
+            <p>Web security is the practice of protecting websites and web applications from threats and cyberattacks. Since the internet is widely used for communication, banking, shopping, and business, securing online systems is essential to prevent data theft and misuse.</p>
+            <p>A major aspect of web security is data protection. Using HTTPS with SSL/TLS encryption ensures safe communication between users and servers. Authentication methods like strong passwords and multi-factor authentication add extra protection against unauthorized access.</p>
+            <p>Websites are often targeted by attacks such as SQL injection, cross-site scripting (XSS), and denial-of-service (DoS). These attacks exploit system weaknesses, but they can be reduced with secure coding, firewalls, and regular updates.</p>
+            <p>In summary, web security safeguards sensitive data and builds trust between users and organizations. By combining encryption, authentication, and proper security practices, websites can stay safe in today’s digital world.</p>
+        </div>
+        <a class="btn" href="#backtotop">Back to Top</a>
+    </section>
+    </div>
+</body>
+</html>
